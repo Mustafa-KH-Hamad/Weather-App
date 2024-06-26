@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+#All-container{
+    border: 2px solid #8d99ae;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 6rem;
+}
+.alert-text{
+   display: none;
+}
+
+
+
+#searchbardiv{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    
+}
+#searchbar{
+    display: block;
+    border-radius: 90px;
+    width: 75%;
+    margin-right: 1rem;
+    padding-left: 0.5rem;
+   
+}
+#searchbar-img{
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z' fill='rgba(255,255,255,1)'%3E%3C/path%3E%3C/svg%3E");
+}
+#weather-imgdiv{
+    display: flex;
+    justify-content: center;
+}
+.weather-img{
+    margin-top: 2rem;
+    width: 10rem;
+    height: 10rem;
+    
+}
+#weather-textdiv{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}#location{
+    margin-right: 1rem;
+    font-family: 'Caveat', sans-serif;
+    font-size: 2rem ;
+    display: inline;
+}
+#weather-num{
+    margin-right: 1rem;
+    font-family: 'Caveat', sans-serif;
+    font-size: 4rem ;
+}
+#weather-text{
+    margin-right: 1rem;
+    font-family: 'Caveat', sans-serif;
+    font-size: 3rem ;
+    margin-top: -1.5rem;
+}
+#winddiv{
+    width: 30rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.hum{
+    display: flex;
+}
+.hum-text{
+    font-family: 'Caveat', sans-serif;
+    font-size: 2rem;
+    
+}
+#winddiv2{
+    width: 30rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -.2rem;
+    
+}
+.look{
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+    body {
+        background-image: url(https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #All-container{
+        border: 2px solid #8d99ae;
+        background-color: black;
+        color: whitesmoke;
+        margin-top: 4rem;
+    }
+  }
+  @media only screen and (max-width: 415px) {
+    body {
+        background-image: url(https://iphoneswallpapers.com/wp-content/uploads/2018/11/Beautiful-Weather-Beach-Nature-iPhone-Wallpaper.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #All-container{
+        border: 2px solid #8d99ae;
+        background-color: black;
+        color: whitesmoke;
+        margin-top: 6rem;
+        margin-left: 6rem;
+        width: 25rem;
+    }
+    #wind{
+        margin-right: 6rem;
+    }
+    #wind-text-respons{
+        margin-right: 4rem;
+    }
+  }
+  @media (min-width: 497px) and (max-width: 1280px) {
+    
+    body {
+        background-image: url(https://wallpaper-house.com/data/out/12/wallpaper2you_579047.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+}
+@media (min-width: 415px) and (max-width: 495px) {
+    
+    body {
+        background-image: url(https://wallpaper-house.com/data/out/12/wallpaper2you_579047.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #All-container{
+        border: 2px solid #8d99ae;
+        background-color: black;
+        color: whitesmoke;
+        margin-top: 6rem;
+        margin-left: 6rem;
+    }
+    #wind{
+        margin-right: 5rem;
+    }
+    #wind-text-respons{
+        margin-right: 1rem;
+    }
+    
+}
+
+  
